@@ -207,21 +207,14 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* .visually-hidden {
-  position: fixed;
-  transform: scale(0);
-} */
-.feature-icons {
-  margin-bottom: 8px;
-}
 
-.feature-icons .icons-list {
+.feature-container .icons-list {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
 }
-.feature-icons .icons-item {
+.feature-container .icons-item {
   width: 264px;
   min-width: calc(100% - 3 * 24 / 4);
 }
